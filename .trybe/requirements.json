@@ -1,0 +1,317 @@
+{
+  "requirements": [
+    {
+      "bonus": false,
+      "description": "1 - Crie uma barra verde na parte superior da página",
+      "enabled": true,
+      "identifier": null,
+      "order": 1,
+      "skill_ids": [
+        "34072452-1a74-4dd2-b4b3-23e7e322b0cc",
+        "e2383150-f640-466b-8120-db777802f474",
+        "ee4f2401-88cb-4d2a-b6e3-f23412e23e35",
+        "0529f8a0-d2f1-451e-b620-6ad83d1f848f",
+        "4efd8ab7-2c13-42cd-aad8-17aa0dce7c6d",
+        "bcb9581a-a21c-4efe-bd82-2a4422b2409a"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "2 - Adicione o logotipo da Trybewarts",
+      "enabled": true,
+      "identifier": null,
+      "order": 2,
+      "skill_ids": [
+        "17ae12c3-98f2-4d02-8a68-246998ebe9c0",
+        "20595061-bc99-4a52-9d52-2a5a6b549d31",
+        "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
+        "0529f8a0-d2f1-451e-b620-6ad83d1f848f",
+        "54e289cd-aad3-48de-a7fe-36d53b9b001c",
+        "e51df440-90ee-42e8-be83-1c02e2c06489"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "3 - Acrescente um formulário de login dentro do `header`, do lado direito",
+      "enabled": true,
+      "identifier": null,
+      "order": 3,
+      "skill_ids": [
+        "043321cd-64e8-423d-bb64-c9c6e4c17e32",
+        "af19cc34-291c-4eb9-84f3-be666cf270c2",
+        "37b8d9c1-a5b1-44d8-b2f7-54678f836f41",
+        "8ecad6db-7b0a-477b-be18-163504eb8e93",
+        "ab1155b6-a3b5-475e-beaf-4ce9179c8bcc",
+        "e3d12e45-3f14-4a9f-96fd-292fa0f49022",
+        "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
+        "4bc2e43b-ac17-4f00-84cb-2c0776e446c9",
+        "8f2bd30e-4e3a-4ef1-b24a-e955fdb97e97",
+        "e30e36ef-e8a3-48eb-b7f2-12bce792e4f9",
+        "a80d18f6-c2db-497d-86ee-32f3eb84d899"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "4 - Crie um título com o texto \"Trybewarts\" centralizado dentro do `header`",
+      "enabled": true,
+      "identifier": null,
+      "order": 4,
+      "skill_ids": [
+        "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
+        "4bc2e43b-ac17-4f00-84cb-2c0776e446c9"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "5 - Adicione um formulário no corpo da página",
+      "enabled": true,
+      "identifier": null,
+      "order": 5,
+      "skill_ids": [
+        "061bab86-fb8e-443a-aba1-128f8587bc98",
+        "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
+        "37b8d9c1-a5b1-44d8-b2f7-54678f836f41",
+        "e2383150-f640-466b-8120-db777802f474",
+        "ee4f2401-88cb-4d2a-b6e3-f23412e23e35",
+        "8e25bd7e-0258-4d82-86cc-5c79331feea5"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "6 - Faça com que o formulário se estabeleça na direção vertical",
+      "enabled": true,
+      "identifier": null,
+      "order": 6,
+      "skill_ids": [
+        "e2383150-f640-466b-8120-db777802f474",
+        "ee4f2401-88cb-4d2a-b6e3-f23412e23e35",
+        "37b8d9c1-a5b1-44d8-b2f7-54678f836f41",
+        "dff815a7-42ec-4f41-9175-0d22afc9e28a"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "7 - Adicione a logo da Trybewarts no lado direito da página",
+      "enabled": true,
+      "identifier": null,
+      "order": 7,
+      "skill_ids": [
+        "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
+        "17ae12c3-98f2-4d02-8a68-246998ebe9c0"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "8 - Acrescente inputs de `nome`, `sobrenome` e `email` ao formulário",
+      "enabled": true,
+      "identifier": null,
+      "order": 8,
+      "skill_ids": [
+        "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
+        "ab1155b6-a3b5-475e-beaf-4ce9179c8bcc",
+        "e3d12e45-3f14-4a9f-96fd-292fa0f49022"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "9 - Acrescente um `select` ao formulário com o `id` `house` contendo as opções `Gitnória`, `Reactpuff`, `Corvinode` e `Pytherina`",
+      "enabled": true,
+      "identifier": null,
+      "order": 9,
+      "skill_ids": [
+        "bcb9581a-a21c-4efe-bd82-2a4422b2409a"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "10 - Posicione os campos de `Nome` e `Sobrenome` lado a lado",
+      "enabled": true,
+      "identifier": null,
+      "order": 10,
+      "skill_ids": [
+        "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
+        "e2383150-f640-466b-8120-db777802f474",
+        "ee4f2401-88cb-4d2a-b6e3-f23412e23e35",
+        "37b8d9c1-a5b1-44d8-b2f7-54678f836f41",
+        "dff815a7-42ec-4f41-9175-0d22afc9e28a"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "11 - Posicione os campos de `Email` e `Casa` lado a lado",
+      "enabled": true,
+      "identifier": null,
+      "order": 11,
+      "skill_ids": [
+        "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
+        "e2383150-f640-466b-8120-db777802f474",
+        "ee4f2401-88cb-4d2a-b6e3-f23412e23e35",
+        "37b8d9c1-a5b1-44d8-b2f7-54678f836f41",
+        "dff815a7-42ec-4f41-9175-0d22afc9e28a"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "12 - Adicione 3 inputs do tipo `radio` ao formulário",
+      "enabled": true,
+      "identifier": null,
+      "order": 12,
+      "skill_ids": [
+        "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
+        "0e6b514c-2885-42d4-aaa4-e659d2b67743",
+        "06e200ef-2519-4c3e-943b-74d0743d7dbc",
+        "dff815a7-42ec-4f41-9175-0d22afc9e28a"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "13 - Crie 6 inputs do tipo `checkbox`",
+      "enabled": true,
+      "identifier": null,
+      "order": 13,
+      "skill_ids": [
+        "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
+        "dff815a7-42ec-4f41-9175-0d22afc9e28a",
+        "2b32ca00-9421-4c02-a0a0-55ae4837f745"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "14 - Crie um campo de entrada para avaliar de 1 a 10 o nível de satisfação com a Trybewarts",
+      "enabled": true,
+      "identifier": null,
+      "order": 14,
+      "skill_ids": [
+        "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
+        "0e6b514c-2885-42d4-aaa4-e659d2b67743",
+        "06e200ef-2519-4c3e-943b-74d0743d7dbc",
+        "dff815a7-42ec-4f41-9175-0d22afc9e28a",
+        "4bc2e43b-ac17-4f00-84cb-2c0776e446c9",
+        "8f2bd30e-4e3a-4ef1-b24a-e955fdb97e97",
+        "e30e36ef-e8a3-48eb-b7f2-12bce792e4f9",
+        "a80d18f6-c2db-497d-86ee-32f3eb84d899"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "15 - Crie um elemento `textarea`, de `id` `textarea` e número máximo de 500 caracteres",
+      "enabled": true,
+      "identifier": null,
+      "order": 15,
+      "skill_ids": [
+        "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
+        "23ef2a3d-b268-4282-857b-283eb888d9c0"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "16 - Crie um elemento `checkbox` para validar as informações digitadas pela pessoa usuária",
+      "enabled": true,
+      "identifier": null,
+      "order": 16,
+      "skill_ids": [
+        "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
+        "dff815a7-42ec-4f41-9175-0d22afc9e28a",
+        "2b32ca00-9421-4c02-a0a0-55ae4837f745"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "17 - Crie um botão de \"Enviar\" para submeter o formulário",
+      "enabled": true,
+      "identifier": null,
+      "order": 17,
+      "skill_ids": [
+        "bcb9581a-a21c-4efe-bd82-2a4422b2409a",
+        "043321cd-64e8-423d-bb64-c9c6e4c17e32",
+        "af19cc34-291c-4eb9-84f3-be666cf270c2"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "18 - Habilite o botão \"Enviar\" após a validação do `checkbox`",
+      "enabled": true,
+      "identifier": null,
+      "order": 18,
+      "skill_ids": [
+        "135bf685-05f2-44df-9376-5bbc7c61472e",
+        "485144f1-bb52-403f-b94d-d40eeaadb3f1",
+        "af62fce8-1899-44fc-bfc0-ab88b7c1f459",
+        "586bcb94-0698-46d3-9eb4-3f98692b5131",
+        "b036e9e4-b6fa-44fb-ae82-a30f8ce4fd00",
+        "2ab799a2-4de6-464a-82b3-c0fd06d03e01",
+        "ebfb806c-1567-47d4-904c-3480d5b1a166"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "19 - Crie um rodapé ao final da página",
+      "enabled": true,
+      "identifier": null,
+      "order": 19,
+      "skill_ids": [
+        "632e1695-47ad-4fb1-b1c2-382af5f43a6f",
+        "4bc2e43b-ac17-4f00-84cb-2c0776e446c9",
+        "8f2bd30e-4e3a-4ef1-b24a-e955fdb97e97",
+        "e30e36ef-e8a3-48eb-b7f2-12bce792e4f9",
+        "a80d18f6-c2db-497d-86ee-32f3eb84d899"
+      ]
+    },
+    {
+      "bonus": true,
+      "description": "20 - Crie um contador de caracteres de `id` `counter` que será decrementado de 500 a 0, à medida que algo vai sendo digitado na textarea",
+      "enabled": true,
+      "identifier": null,
+      "order": 20,
+      "skill_ids": [
+        "135bf685-05f2-44df-9376-5bbc7c61472e",
+        "485144f1-bb52-403f-b94d-d40eeaadb3f1",
+        "af62fce8-1899-44fc-bfc0-ab88b7c1f459",
+        "586bcb94-0698-46d3-9eb4-3f98692b5131",
+        "b036e9e4-b6fa-44fb-ae82-a30f8ce4fd00",
+        "2ab799a2-4de6-464a-82b3-c0fd06d03e01",
+        "ebfb806c-1567-47d4-904c-3480d5b1a166",
+        "f6eb9c8c-51bc-41c3-a2aa-529ad82d3dbf",
+        "07f41718-b618-4c44-ab84-b529c77cd036",
+        "a3cc1fb7-4236-459a-b05f-0e59f364f062",
+        "8e7a716f-a2a4-4640-8654-c19b7e7e4506",
+        "2e77a1fc-5e9d-4d05-8acd-56a6ff028501",
+        "1a98adcd-1669-4088-8b16-c7b00ecd1ec8",
+        "0501f8ef-d192-4207-a521-c2f32b2dd2fa",
+        "58b4a2db-3848-485b-8ff7-a314369a2b20",
+        "95e4ebe9-2181-47be-b602-6255b7270670",
+        "e5755aa9-89b9-475c-94f5-b557f5829e59",
+        "efeef6c0-0904-432d-b471-2af8a00e6bc9",
+        "7570d9d4-4dd4-4ef2-bb14-8160a9f0ce2c"
+      ]
+    },
+    {
+      "bonus": true,
+      "description": "21 - Substitua o formulário pelas informações da pessoa estudante",
+      "enabled": true,
+      "identifier": null,
+      "order": 21,
+      "skill_ids": [
+        "135bf685-05f2-44df-9376-5bbc7c61472e",
+        "485144f1-bb52-403f-b94d-d40eeaadb3f1",
+        "af62fce8-1899-44fc-bfc0-ab88b7c1f459",
+        "586bcb94-0698-46d3-9eb4-3f98692b5131",
+        "b036e9e4-b6fa-44fb-ae82-a30f8ce4fd00",
+        "2ab799a2-4de6-464a-82b3-c0fd06d03e01",
+        "ebfb806c-1567-47d4-904c-3480d5b1a166",
+        "f6eb9c8c-51bc-41c3-a2aa-529ad82d3dbf",
+        "07f41718-b618-4c44-ab84-b529c77cd036",
+        "a3cc1fb7-4236-459a-b05f-0e59f364f062",
+        "8e7a716f-a2a4-4640-8654-c19b7e7e4506",
+        "2e77a1fc-5e9d-4d05-8acd-56a6ff028501",
+        "1a98adcd-1669-4088-8b16-c7b00ecd1ec8",
+        "0501f8ef-d192-4207-a521-c2f32b2dd2fa",
+        "58b4a2db-3848-485b-8ff7-a314369a2b20",
+        "95e4ebe9-2181-47be-b602-6255b7270670",
+        "e5755aa9-89b9-475c-94f5-b557f5829e59",
+        "efeef6c0-0904-432d-b471-2af8a00e6bc9",
+        "7570d9d4-4dd4-4ef2-bb14-8160a9f0ce2c"
+      ]
+    }
+  ]
+}
