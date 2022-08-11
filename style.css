@@ -5,14 +5,44 @@ body {
   grid-template-rows: 50px minmax(calc(100vh - 80px), auto) 30px;
 }
 
-header {
-  background-color: gray;
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row nowrap;
+  padding: 0 15px;
+}
+
+header form input {
+  margin: 0 10px;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+main , #evaluation-form {
+  background-color: silver;
+  display: flex;
 }
 
 main {
-  background-color: silver;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+main img {
+  height: 500px;
 }
 
 footer {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(50, 167, 145);
+  text-align: center;
+}
+
+#evaluation-form {
+  width: 675px;
+  flex-direction: column;
 }
