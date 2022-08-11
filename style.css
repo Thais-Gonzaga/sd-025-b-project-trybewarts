@@ -1,0 +1,18 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  min-height: 100vh;
+  grid-template-rows: 50px minmax(calc(100vh - 80px), auto) 30px;
+}
+
+header {
+  background-color: gray;
+}
+
+main {
+  background-color: silver;
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+}
