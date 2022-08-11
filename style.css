@@ -9,16 +9,24 @@ body {
   background-color: rgb(50, 167, 145);
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-flow: row nowrap;
 }
 
 .trybewarts-login {
   display: flex;
 }
 
-main {
+main , #evaluation-form {
   background-color: silver;
+  display: flex;
 }
 
 footer {
   background-color: white;
+}
+
+#evaluation-form {
+  width: 675px;
+  flex-direction: column;
 }
