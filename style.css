@@ -1,0 +1,24 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  min-height: 100vh;
+  grid-template-rows: 50px minmax(calc(100vh - 80px), auto) 30px;
+}
+
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+main {
+  background-color: silver;
+}
+
+footer {
+  background-color: white;
+}

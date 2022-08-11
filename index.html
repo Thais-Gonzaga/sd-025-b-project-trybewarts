@@ -10,31 +10,16 @@
     <script src="https://kit.fontawesome.com/ec29234e56.js" crossorigin="anonymous" defer></script>
     <link rel="stylesheet" href="style.css" media="screen and (min-width: 1100px)">
     <title>Trybewarts</title>
-    <style>
-      body {
-        display: grid;
-        grid-template-columns: 1fr;
-        min-height: 100vh;
-        grid-template-rows: 50px minmax(calc(100vh - 80px), auto) 30px;
-      }
-
-      header {
-        background-color: gray;
-      }
-
-      main {
-        background-color: silver;
-      }
-
-      footer {
-        background-color: rgb(255, 255, 255);
-      }
-    </style>
+    <script src="script.js" defer></script>
   </head>
    <body>
-      <header>
-        <img src="images/trybewarts-header-logo.svg" alt="" style="height: 40px;">
-        <h1>Header</h1>
+      <header class="header">
+        <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="" style="height: 40px;">
+        <form class="trybewarts-login" action="">
+          <input type="email" name="email" id="email" placeholder="Email">
+          <input type="password" name="password" id="senha" placeholder="Senha">
+          <button id="btn-login">Entrar</button>
+        </form>
       </header>
       <main>
         <section>
