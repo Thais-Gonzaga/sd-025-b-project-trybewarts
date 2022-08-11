@@ -1,5 +1,3 @@
-// const header = document.querySelector('.header');
-// const trybewartsLogin = document.querySelector('.trybewarts-login');
 const btnLogin = document.querySelector('#btn-login');
 const email = document.querySelector('#email');
 const senha = document.querySelector('#senha');

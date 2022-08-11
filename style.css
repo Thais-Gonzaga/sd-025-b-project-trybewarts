@@ -5,6 +5,10 @@ body {
   grid-template-rows: 50px minmax(calc(100vh - 80px), auto) 30px;
 }
 
+.header h1 {
+  color: white;
+}
+
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
@@ -46,3 +50,4 @@ footer {
   width: 675px;
   flex-direction: column;
 }
+
