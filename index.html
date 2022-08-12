@@ -24,7 +24,7 @@
       </header>
       <main class="container-fluid">
         <form action="" id="evaluation-form">
-          <div class="row mb-3">
+          <div class="row">
             <div class="col">
               <label for="input-name" class="form-label">Nome:</label>
               <input type="text" name="input-name" id="input-name" class="form-control" placeholder="Nome">
@@ -34,7 +34,7 @@
               <input type="text" name="input-lastname" id="input-lastname" class="form-control" placeholder="Sobrenome">
             </div>
           </div>
-          <div class="row mb-3">
+          <div class="row">
             <div class="col">
               <label for="input-email" class="form-label">Email</label>
               <input type="email" name="input-email" id="input-email" class="form-control" placeholder="Email">
@@ -49,75 +49,101 @@
               </select>
             </div>
           </div>
-          <div class="mb-3" id="family">
-            <label for="" id="label-family">Qual sua família?</label>
-            <div class="form-check">
-              <input type="radio" name="family" value="Frontend" id="Frontend" class="form-check-input">
-              <label for="Frontend" class="form-check-label">Frontend</label>
+          <div class="row">
+            <div class="mb-3 col-4" id="family">
+              <label for="" id="label-family">Qual sua família?</label>
+              <div class="form-check">
+                <input type="radio" name="family" value="Frontend" id="Frontend" class="form-check-input">
+                <label for="Frontend" class="form-check-label">Frontend</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" name="family" value="Backend" id="Backend" class="form-check-input">
+                <label for="Backend" class="form-check-label">Backend</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" name="family" value="FullStack" id="FullStack" class="form-check-input">
+                <label for="FullStack" class="form-check-label">FullStack</label>
+              </div>
             </div>
-            <div class="form-check">
-              <input type="radio" name="family" value="Backend" id="Backend" class="form-check-input">
-              <label for="Backend" class="form-check-label">Backend</label>
-            </div>
-            <div class="form-check">
-              <input type="radio" name="family" value="FullStack" id="FullStack" class="form-check-input">
-              <label for="FullStack" class="form-check-label">FullStack</label>
+            <div class="col-8 mb-3">
+              <div class=""> 
+                <div class="form-check form-check-inline">
+                  <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?"</label>
+                </div>
+              </div>
+              <div id="materias">
+                <div class="form-check form-check-inline">
+                  <input type="checkbox" name="HoFs" class="subject form-check-input" id="HoFs" value="HoFs">
+                  <label for="HoFs" class="form-check-label">HoFs</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input type="checkbox" name="Jest" class="subject form-check-input" id="Jest" value="Jest">
+                  <label for="Jest" class="form-check-label"> Jest</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input type="checkbox" name ="Promises" class="subject form-check-input" id="Promises" value="Promises">
+                  <label for="Promises" class="form-check-label">Promises</label> 
+                </div>
+                <div class="form-check form-check-inline">
+                  <input type="checkbox" name="React" class="subject form-check-input" id="React" value="React">
+                  <label for="React" class="form-check-label">React</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input type="checkbox" name="SQL" class="subject form-check-input" id="SQL" value="SQL">
+                  <label for="SQL" class="form-check-label"> SQL</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input type="checkbox" name="Python" class="subject form-check-input" id="Python" value="Python">
+                <label for="Python" class="form-check-label"> Python</label>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="mb-1"> 
-            <div class="form-check form-check-inline">
-              <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?"</label>
+          <div class="row" id="rate">
+            <div class="col">
+            <label id="label-rate" for="">Como você avalia a Trybewarts?</label>
+              <div class="form-check form-check-inline">
+                <label for="r1" class="form-check-label">1</label>
+                <input type="radio" name="rate" id="r1" value="1" class="form-check-input">
+              </div>
+              <div class="form-check form-check-inline">
+                <label for="r2" class="form-check-label">2</label>
+                <input type="radio" name="rate" id="r2" value="2" class="form-check-input">
+              </div>
+              <div class="form-check form-check-inline">
+                <label for="r3" class="form-check-label">3</label>
+                <input type="radio" name="rate" id="r3" value="3" class="form-check-input">
+              </div>
+              <div class="form-check form-check-inline">
+                <label for="r4" class="form-check-label">4</label>
+                <input type="radio" name="rate" id="r4" value="4" class="form-check-input">
+              </div>
+              <div class="form-check form-check-inline">
+                <label for="r5" class="form-check-label">5</label>
+                <input type="radio" name="rate" id="r5" value="5" class="form-check-input">
+              </div>
+              <div class="form-check form-check-inline">
+                <label for="r6" class="form-check-label">6</label>
+                <input type="radio" name="rate" id="r6" value="6" class="form-check-input">
+              </div>
+              <div class="form-check form-check-inline">
+                <label for="r7" class="form-check-label">7</label>
+                <input type="radio" name="rate" id="r7" value="7" class="form-check-input">
+              </div>
+              <div class="form-check form-check-inline">
+                <label for="r8" class="form-check-label">8</label>
+                <input type="radio" name="rate" id="r8" value="8" class="form-check-input">
+              </div>
+              <div class="form-check form-check-inline">
+                <label for="r9" class="form-check-label">9</label>
+                <input type="radio" name="rate" id="r9" value="9" class="form-check-input">
+              </div>
+              <div class="form-check form-check-inline">
+                <label for="r10" class="form-check-label">10</label>
+                <input type="radio" name="rate" id="r10" value="10" class="form-check-input">
+              </div>
             </div>
           </div>
-          <div class="mb-3" id="materias">
-            <div class="form-check form-check-inline">
-              <input type="checkbox" name="HoFs" class="subject form-check-input" id="HoFs" value="HoFs">
-              <label for="HoFs" class="form-check-label">HoFs</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input type="checkbox" name="Jest" class="subject form-check-input" id="Jest" value="Jest">
-              <label for="Jest" class="form-check-label"> Jest</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input type="checkbox" name ="Promises" class="subject form-check-input" id="Promises" value="Promises">
-              <label for="Promises" class="form-check-label">Promises</label> 
-            </div>
-            <div class="form-check form-check-inline">
-              <input type="checkbox" name="React" class="subject form-check-input" id="React" value="React">
-              <label for="React" class="form-check-label">React</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input type="checkbox" name="SQL" class="subject form-check-input" id="SQL" value="SQL">
-              <label for="SQL" class="form-check-label"> SQL</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input type="checkbox" name="Python" class="subject form-check-input" id="Python" value="Python">
-            <label for="Python" class="form-check-label"> Python</label>
-            </div>
-          </div>
-            <div class="mb-3" id="rate">
-              <label id="label-rate" for="">Como você avalia a Trybewarts?</label>
-              <label for="r1">1</label>
-              <input type="radio" name="rate" id="r1" value="1">
-              <label for="r2">2</label>
-              <input type="radio" name="rate" id="r2" value="2">
-              <label for="r3">3</label>
-              <input type="radio" name="rate" id="r3" value="3">
-              <label for="r4">4</label>
-              <input type="radio" name="rate" id="r4" value="4">
-              <label for="r5">5</label>
-              <input type="radio" name="rate" id="r5" value="5">
-              <label for="r6">6</label>
-              <input type="radio" name="rate" id="r6" value="6">
-              <label for="r7">7</label>
-              <input type="radio" name="rate" id="r7" value="7">
-              <label for="r8">8</label>
-              <input type="radio" name="rate" id="r8" value="8">
-              <label for="r9">9</label>
-              <input type="radio" name="rate" id="r9" value="9">
-              <label for="r10">10</label>
-              <input type="radio" name="rate" id="r10" value="10">
-            </div>
             <div class="mb-3">
             <label for="textarea" class="textarea">Deixe seu comentário:</label>
             <textarea name="" id="textarea" cols="50" rows="10" maxlength="500" class="form-control"></textarea>
