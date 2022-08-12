@@ -39,12 +39,14 @@ function criaDivs(val) {
 
 function getMaterias(val) {
   let materias = '';
-  val.forEach((el) => {
-    if (val.el === val.length - 1) {
-      materias += `${el.value}`;
+  for (let i = 0; i < val.length; i += 1) {
+    if (i === val.length - 1) {
+      materias += `${val[i].value}`;
+    } else {
+      materias += `${val[i].value}, `;
     }
-    materias += `${el.value}, `;
-  });
+  }
+
   return materias;
 }
 
