@@ -1,6 +1,14 @@
 const btnLogin = document.querySelector('#btn-login');
 const email = document.querySelector('#email');
 const senha = document.querySelector('#senha');
+const nameInput = document.querySelector('#input-name');
+const agreement = document.querySelector('#agreement');
+const btnSubmit = document.querySelector('#submit-btn');
+const textarea = document.querySelector('#textarea');
+const counter = document.querySelector('#counter');
+const inicio = 500;
+const form = document.querySelector('#evaluation-form');
+const aside = document.querySelector('#form-data');
 
 btnLogin.addEventListener('click', (event) => {
   event.preventDefault();
@@ -11,50 +19,46 @@ btnLogin.addEventListener('click', (event) => {
   }
 });
 
-const agreement = document.querySelector('#agreement');
 agreement.addEventListener('click', (e) => {
-  if (e.target.checked) {
-    document.querySelector('#submit-btn').removeAttribute('disabled');
-  } else {
-    document.querySelector('#submit-btn').setAttribute('disabled', '');
-  }
+  const click = e.target;
+  if (click.checked) btnSubmit.removeAttribute('disabled');
+  if (!click.checked) btnSubmit.setAttribute('disabled', '');
 });
 
-const textarea = document.querySelector('#textarea');
-const counter = document.querySelector('#counter');
-const inicio = 500;
 textarea.addEventListener('keyup', () => {
   counter.innerHTML = inicio - textarea.value.length;
 });
 
-const btnSubmit = document.querySelector('#submit-btn');
-const form = document.querySelector('#evaluation-form');
-
 function criaDivs(val) {
-  val.forEach( (el) => {
+  val.forEach((el) => {
     const div = document.createElement('div');
+    div.innerText = el;
+    aside.appendChild(div);
   });
 }
 
 function getMaterias(val) {
   let materias = '';
   val.forEach((el) => {
+    if (val.el === val.length - 1) {
+      materias += `${el.value}`;
+    }
     materias += `${el.value}, `;
   });
   return materias;
-};
+}
 
 btnSubmit.addEventListener('click', (e) => {
   e.preventDefault();
-  let info = [];
-  info.push(`Nome: ${document.querySelector('#input-name').value} ${document.querySelector('#input-lastname').value}`);
+  form.style.display = 'none';
+  const info = [];
+  const materias = document.querySelectorAll('#materias input[type=checkbox]:checked');
+  info.push(`Nome: ${nameInput.value} ${document.querySelector('#input-lastname').value}`);
   info.push(`Email: ${document.querySelector('#input-email').value}`);
   info.push(`Casa: ${document.querySelector('#house').value}`);
-  info.push(`Familia: ${document.querySelectorAll('#family input[type=radio]:checked')[0].value}`);
-  //info.push(document.querySelectorAll('#rate input[type=radio]:checked')[0].value);
-  info.push(getMaterias(document.querySelectorAll('#materias input[type=checkbox]:checked')));
-  //criaDivs(info);
-  //form.style.display = 'none';
-
-  console.log(info);
+  info.push(`Família: ${document.querySelectorAll('#family input[type=radio]:checked')[0].value}`);
+  info.push(`Avaliação: ${document.querySelectorAll('#rate input[type=radio]:checked')[0].value}`);
+  info.push(`Matérias: ${getMaterias(materias)}`);
+  info.push(`Observações: ${document.querySelector('#textarea').value}`);
+  criaDivs(info);
 });
