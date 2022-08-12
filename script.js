@@ -11,19 +11,18 @@ btnLogin.addEventListener('click', (event) => {
   }
 });
 
-
 const agreement = document.querySelector('#agreement');
 agreement.addEventListener('click', (e) => {
   if (e.target.checked) {
     document.querySelector('#submit-btn').removeAttribute('disabled');
   } else {
     document.querySelector('#submit-btn').setAttribute('disabled', '');
-  };
-})
+  }
+});
 
 const textarea = document.querySelector('#textarea');
 const counter = document.querySelector('#counter');
 const inicio = 500;
-textarea.addEventListener('keyup', (e) => {
-  counter.innerHTML = 500 - textarea.value.length;
+textarea.addEventListener('keyup', () => {
+  counter.innerHTML = inicio - textarea.value.length;
 });
