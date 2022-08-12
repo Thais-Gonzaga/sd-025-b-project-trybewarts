@@ -26,3 +26,35 @@ const inicio = 500;
 textarea.addEventListener('keyup', () => {
   counter.innerHTML = inicio - textarea.value.length;
 });
+
+const btnSubmit = document.querySelector('#submit-btn');
+const form = document.querySelector('#evaluation-form');
+
+function criaDivs(val) {
+  val.forEach( (el) => {
+    const div = document.createElement('div');
+  });
+}
+
+function getMaterias(val) {
+  let materias = '';
+  val.forEach((el) => {
+    materias += `${el.value}, `;
+  });
+  return materias;
+};
+
+btnSubmit.addEventListener('click', (e) => {
+  e.preventDefault();
+  let info = [];
+  info.push(`Nome: ${document.querySelector('#input-name').value} ${document.querySelector('#input-lastname').value}`);
+  info.push(`Email: ${document.querySelector('#input-email').value}`);
+  info.push(`Casa: ${document.querySelector('#house').value}`);
+  info.push(`Familia: ${document.querySelectorAll('#family input[type=radio]:checked')[0].value}`);
+  //info.push(document.querySelectorAll('#rate input[type=radio]:checked')[0].value);
+  info.push(getMaterias(document.querySelectorAll('#materias input[type=checkbox]:checked')));
+  //criaDivs(info);
+  //form.style.display = 'none';
+
+  console.log(info);
+});

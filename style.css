@@ -41,6 +41,10 @@ main img {
   height: 500px;
 }
 
+#info {
+  display: none;
+}
+
 footer {
   background-color: rgb(50, 167, 145);
   text-align: center;
