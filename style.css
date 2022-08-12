@@ -31,7 +31,6 @@ header form input {
 }
 
 main , #evaluation-form {
-  /* background-color: silver; */
   display: flex;
 }
 
