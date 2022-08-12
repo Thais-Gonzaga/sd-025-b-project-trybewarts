@@ -51,3 +51,6 @@ footer {
   flex-direction: column;
 }
 
+#textarea {
+  resize: none;
+}
