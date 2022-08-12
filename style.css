@@ -3,6 +3,10 @@ body {
   grid-template-columns: 1fr;
   min-height: 100vh;
   grid-template-rows: 50px minmax(calc(100vh - 80px), auto) 30px;
+  background-image: url('https://cinesiageek.com.br/wp-content/uploads/2017/06/Harry-Potter-Wallpapers-Archives-Page-2-of-4-Wallpaper.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
 }
 
 .header h1 {
@@ -27,7 +31,7 @@ header form input {
 }
 
 main , #evaluation-form {
-  background-color: silver;
+  /* background-color: silver; */
   display: flex;
 }
 
